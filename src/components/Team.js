@@ -1,35 +1,76 @@
-import React from 'react';
-import {
-    Navbar,
-    MobileNav,
-    Typography,
-    Button,
-    IconButton,
-    Card,
-} from '@material-tailwind/react';
+const people = [
+    {
+        name: 'Gavin Tan',
+        role: 'Lead',
+        imageUrl:
+            'https://www.pngitem.com/pimgs/m/504-5040528_empty-profile-picture-png-transparent-png.png',
+    },
+    {
+        name: 'Joe Tian',
+        role: '',
+        imageUrl:
+            'https://www.pngitem.com/pimgs/m/504-5040528_empty-profile-picture-png-transparent-png.png',
+    },
+    {
+        name: 'Andy ',
+        role: '',
+        imageUrl:
+            'https://www.pngitem.com/pimgs/m/504-5040528_empty-profile-picture-png-transparent-png.png',
+    },
+    {
+        name: 'Wei Feng',
+        role: '',
+        imageUrl:
+            'https://www.pngitem.com/pimgs/m/504-5040528_empty-profile-picture-png-transparent-png.png',
+    },
+    {
+        name: 'Kee Yang',
+        role: '',
+        imageUrl:
+            'https://www.pngitem.com/pimgs/m/504-5040528_empty-profile-picture-png-transparent-png.png',
+    },
 
-function Team() {
+    // More people...
+];
+
+export default function Example() {
     return (
-        <div id='team' className='h-screen pt-24 mx-auto max-w-screen-md py-12'>
-            <Typography variant='h2' color='blue-gray' className='mb-2'>
-                Team
-            </Typography>
-
-            <Card className='mb-12 overflow-hidden'>
-                <img
-                    alt='nature'
-                    className='h-[32rem] w-full object-cover object-center'
-                    src='https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2717&q=80'
-                />
-            </Card>
-            <Typography color='gray' className='font-normal'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
-                corrupti id ea minus, possimus eius pariatur molestiae soluta,
-                laudantium dolores autem similique temporibus excepturi ad ullam
-                eum harum, earum illo?
-            </Typography>
+        <div id='team' className='h-screen mt-48 bg-white py-24 sm:py-32'>
+            <div className='mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3'>
+                <div className='max-w-2xl'>
+                    <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+                        Meet our leadership
+                    </h2>
+                    <p className='mt-6 text-lg leading-8 text-gray-600'>
+                        Libero fames augue nisl porttitor nisi, quis. Id ac elit
+                        odio vitae elementum enim vitae ullamcorper suspendisse.
+                    </p>
+                </div>
+                <ul
+                    role='list'
+                    className='grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2'
+                >
+                    {people.map((person) => (
+                        <li key={person.name}>
+                            <div className='flex items-center gap-x-6'>
+                                <img
+                                    className='w-40 rounded-full'
+                                    src={person.imageUrl}
+                                    alt=''
+                                />
+                                <div>
+                                    <h3 className='text-base font-semibold leading-7 tracking-tight text-gray-900'>
+                                        {person.name}
+                                    </h3>
+                                    <p className='text-sm font-semibold leading-6 text-indigo-600'>
+                                        {person.role}
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </div>
     );
 }
-
-export default Team;

@@ -12,7 +12,7 @@ function Product() {
     return (
         <div
             id='product'
-            className='h-screen  pt-24 mx-auto max-w-screen-md py-12'
+            className='h-screen pt-24 mx-auto max-w-screen-md py-12'
         >
             <Typography variant='h2' color='blue-gray' className='mb-2'>
                 Product
