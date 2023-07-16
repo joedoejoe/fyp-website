@@ -1,21 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-import Product from './components/Product';
-import Team from './components/Team';
-import Features from './components/Features';
-import Docs from './components/Docs';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import ProductSection from "./components/ProductSection";
+import TeamSection from "./components/TeamSection";
+import FeaturesSection from "./components/FeaturesSection";
+import DocumentationSection from "./components/DocumentationSection";
 
-function App() {
-    return (
-        <>
-            <Navbar />
-            <Product />
-            <Features />
-            <Team />
-            <Docs />
-        </>
-    );
-}
+const App = () => {
+	return (
+		<div>
+			<Navbar />
+
+			<ProductSection />
+			<FeaturesSection />
+			<TeamSection />
+			<DocumentationSection />
+		</div>
+	);
+};
 
 export default App;
