@@ -16,7 +16,7 @@ const FeaturesSection = () => {
 				/>
 			</Card>
 			<Typography color="gray" className="font-normal">
-				Biometric verification through the brownser is the main gist of our webapp
+			Features include a login with 2FA (utilizing biometrics authentication), allowing users to check their timetable, students to mark their attendance using biometrics authentication, staff/teachers to view the attendance rate of their classes. Super admins can also utilize our app to manage users, creating new user accounts or editing existing ones.
 			</Typography>
 		</div>
 	);

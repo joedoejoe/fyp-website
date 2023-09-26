@@ -16,7 +16,7 @@ const ProductSection = () => {
 				/>
 			</Card>
 			<Typography color="gray" className="font-normal">
-				Our web app does the same stuff, but even better
+			Our main objective of our project is to allow users of our web application to perform multi-factor transaction authorisation based on QR code, with the usage of biometric information.
 			</Typography>
 		</div>
 	);
