@@ -16,8 +16,9 @@ const DocumentationSection = () => {
 				/>
 			</Card>
 			<Typography color="gray" className="font-normal">
-			Check back later
+			Check back later<br/>
 			Once our doc is ready, you can find it here
+			<br/><br/>
 			</Typography>
 		</div>
 	);
