@@ -16,9 +16,8 @@ const DocumentationSection = () => {
 				/>
 			</Card>
 			<Typography color="gray" className="font-normal">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, vel odio adipisci aperiam
-				tempore dicta ipsa culpa obcaecati officiis veritatis facilis aliquid est animi
-				reprehenderit eum sint reiciendis nisi repellendus?
+			Check back later
+			Once our doc is ready, you can find it here
 			</Typography>
 		</div>
 	);
