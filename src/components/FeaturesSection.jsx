@@ -16,9 +16,7 @@ const FeaturesSection = () => {
 				/>
 			</Card>
 			<Typography color="gray" className="font-normal">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, vel odio adipisci aperiam
-				tempore dicta ipsa culpa obcaecati officiis veritatis facilis aliquid est animi
-				reprehenderit eum sint reiciendis nisi repellendus?
+				Biometric verification through the brownser is the main gist of our webapp
 			</Typography>
 		</div>
 	);

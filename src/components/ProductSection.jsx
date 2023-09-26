@@ -16,9 +16,7 @@ const ProductSection = () => {
 				/>
 			</Card>
 			<Typography color="gray" className="font-normal">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, vel odio adipisci aperiam
-				tempore dicta ipsa culpa obcaecati officiis veritatis facilis aliquid est animi
-				reprehenderit eum sint reiciendis nisi repellendus?
+				Our web app does the same stuff, but even better
 			</Typography>
 		</div>
 	);
