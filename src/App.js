@@ -1,9 +1,9 @@
-import "./App.css";
-import Navbar from "./components/Navbar";
-import ProductSection from "./components/ProductSection";
-import TeamSection from "./components/TeamSection";
-import FeaturesSection from "./components/FeaturesSection";
-import DocumentationSection from "./components/DocumentationSection";
+import './App.css'
+import Navbar from './components/Navbar'
+import ProductSection from './components/ProductSection'
+import TeamSection from './components/TeamSection'
+import FeaturesSection from './components/FeaturesSection'
+import DocumentationSection from './components/DocumentationSection'
 
 const App = () => {
 	return (
@@ -13,9 +13,9 @@ const App = () => {
 			<ProductSection />
 			<FeaturesSection />
 			<TeamSection />
-			<DocumentationSection />
+			{/* <DocumentationSection /> */}
 		</div>
-	);
-};
+	)
+}
 
-export default App;
+export default App
