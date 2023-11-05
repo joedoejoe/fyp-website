@@ -4,6 +4,7 @@ import ProductSection from './components/ProductSection'
 import TeamSection from './components/TeamSection'
 import FeaturesSection from './components/FeaturesSection'
 import DocumentationSection from './components/DocumentationSection'
+import Pricing from './components/Pricing'
 
 const App = () => {
 	return (
@@ -12,8 +13,9 @@ const App = () => {
 
 			<ProductSection />
 			<FeaturesSection />
+			<Pricing />
 			<TeamSection />
-			{/* <DocumentationSection /> */}
+			<DocumentationSection />
 		</div>
 	)
 }
